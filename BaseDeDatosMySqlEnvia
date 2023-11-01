@@ -1,33 +1,6 @@
-# PushUpEnvia
-
-Prueba
-
-<h1>Comandos DDL</1h>
-
-- CREATE = Crear
-- ALTER = Modificar
-- DROP = Eliminar
-- TRUNCATE = Eliminar todos los registros
-- RENAME = Cambiar el nombre de un objeto existente
-
-<h1>Comandos DML</h1>
-
-- SELECT = Recuperar datos de una o varias tablas
-- INSERT = Insertar nuevos registros en una tabla
-- UPDATE = Actualizar valores de uno o varios regritros de una tabla
-- DELETE = Eliminar uno o varios registros de una tabla
-
-<h1>Comandos DQL</h1>
-
-- SELECT = Seleccionar y recuperar
-- FROM = Se utiliza junto a el comando SELECT para especificar la tabla o tablas desde las cuales se deben recuperar los datos
-- WHERE = filtrar los registros que cumplen ciertas condiciones en una consulta.
-
-# COMANDOS DE MySql
 CREATE DATABASE Envia;
 SHOW DATABASES;
 USE Envia;
-
 CREATE TABLE Usuarios (
   ID_usuario INT PRIMARY KEY,
   Nombre VARCHAR(255),
