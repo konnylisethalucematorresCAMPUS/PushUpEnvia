@@ -71,7 +71,7 @@ CREATE TABLE Envios (
   FOREIGN KEY (ID_transportista) REFERENCES Transportistas(ID_transportista)
 );
 
-Tabla "Facturas":
+
 CREATE TABLE Facturas (
   ID_factura INT PRIMARY KEY,
   ID_envio INT,
